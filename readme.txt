@@ -30,6 +30,7 @@ These are the social channels currently supported by the plugin
 * Google+
 * Pinterest
 * LinkedIn
+* WhatsApp
 * Email
 
 == Installation ==
@@ -60,7 +61,7 @@ No. This plugin works with the theme and does not require the premium plugin.
 
 You can use the following action to display the social share options whenever/wherever you like, just change out the_hook_you_require for the one you want to use
 
-	add_action( 'the_hook_you_require','wcdgpSocialShare::add_social_icons' );
+	add_action( 'the_hook_you_require','add_social_icons' );
 
 
 = Can I display the amount of times my post has been shared? =
